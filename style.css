@@ -1,48 +1,36 @@
 .header {
     background-color:#9b9bf7 ;
 }
-
 .card-1 {
-    background-image: url('images/CategoryImages/sub-banner-1.jpg');
+    background-image: url('');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
 }
-
 .card-2 {
-    background-image: url('images/CategoryImages/sub-banner-2.jpg');
+    background-image: url('');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
 }
-
 .card-3 {
-    background-image: url('images/CategoryImages/sub-banner-3.jpg');
+    background-image: url('');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
 }
-
 .card-img-1 {
-    background-image: url('images/CategoryImages/cms-banner-1.jpg');
+    background-image: url('');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
 }
-
 .card-img-2 {
-    background-image: url('images/CategoryImages/cms-banner-2.jpg');
+    background-image: url('');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
 }
-
-.bannerImg {
-    background-image: url('images/offer-banner.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .wd-100{
     height: 30px;
 }
