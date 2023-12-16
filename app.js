@@ -1,14 +1,13 @@
 var cardObj = [
     {
       id: 0,
-      image:
-        "https://us.123rf.com/450wm/blueone/blueone1301/blueone130100148/17553454-driving-in-the-night-city.jpg?ver=6",
+      image: "images/reviewImages/WhatsApp\ Image\ 2023-12-07\ at\ 4.19.10\ PM.jpeg",
       title: "Card title",
       des: "Some quick example text to build on the card title and make up the bulk of the card's content.",
     },
     {
       id: 1,
-      image: "https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg",
+      image: "images/reviewImages/WhatsApp\ Image\ 2023-12-07\ at\ 4.19.10\ PM.jpeg",
       title: "Our card",
       des: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, enim.",
     },
@@ -79,41 +78,28 @@ var cardObj = [
   var cardObj = [
     {
       id: 0,
-      image:
-        "https://us.123rf.com/450wm/blueone/blueone1301/blueone130100148/17553454-driving-in-the-night-city.jpg?ver=6",
-      title: "Card title",
-      des: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    },
+      image: "images/reviewImages/WhatsApp\ Image\ 2023-12-07\ at\ 4.19.10\ PM.jpeg",
+      },
     {
       id: 1,
-      image: "https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg",
-      title: "Our card",
-      des: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, enim.",
-    },
+      image: "images/reviewImages/WhatsApp\ Image\ 2023-12-07\ at\ 4.19.10\ PM.jpeg",
+      },
     {
       id: 2,
       image: "https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg",
-      title: "Our card",
-      des: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, enim.",
-    },
+      },
     {
       id: 3,
       image: "https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg",
-      title: "Our card",
-      des: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, enim.",
-    },
+      },
     {
       id: 4,
       image: "https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg",
-      title: "Our card",
-      des: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, enim.",
-    },
+      },
     {
       id: 5,
       image: "https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg",
-      title: "Our card",
-      des: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, enim.",
-    }
+      }
   ];
   
   // console.log(cardObj);
@@ -158,76 +144,72 @@ var navBar = document.getElementById("navBar")
 // nav End
 
     // footer start
-var footer = document.getElementById("footer")
-footer.innerHTML += `<main class="container">
-<hr>
-<section class="row">
-<div class="col-md-6">
-<div class='m-2'>
-<h2>
-School Address <br>
-Head Office:
-            </h2>
-            <p><i class="fa-solid fa-location-dot"></i>Head Office: B-7, Yousuf Plaza, Block 16, F.B Area, Karachi.</p>
-            
-            <p>
-            <a href="tel:000000000" class="text-white text-decoration-none">
+      var footer = document.getElementById("footer")
 
-            
-                    <i class="fa-solid fa-phone"></i> +92 331-3432382
-                    </a>
-            </p>
+      footer.innerHTML += `<main class="container">
+      <hr>
+      <section class="row">
+      <div class="col-md-6">
+      <div class='m-2'>
+      <h2>
+      School Address <br>
+      Head Office:
+                  </h2>
+                  <p><i class="fa-solid fa-location-dot"></i>Head Office: B-7, Yousuf Plaza, Block 16, F.B Area, Karachi.</p>
+                  
+                  <p>
+                  <a href="tel:000000000" class="text-white text-decoration-none">
 
-            <p>
-            <a href="mailto:someone@gmail.com" class="text-white text-decoration-none">
+                  
+                          <i class="fa-solid fa-phone"></i> +92 331-3432382
+                          </a>
+                  </p>
 
-                    <i class="fa-solid fa-envelope"></i> sales@yourcompany.com
-                </a>
-                </p>
-        </div>
-    </div>
-    <div class="col-md-6">
-    <div class="">
-            <h2>
-                School Address <br>
-                Branch Office:
-            </h2>
-            <p><i class="fa-solid fa-location-dot"></i>Branch: A-61, Yousuf Plaza, Block 16, F.B Area, Karachi.</p>
-            <p>
-            <a href="tel:000000000" class="text-white text-decoration-none">
-            
-            
-                    <i class="fa-solid fa-phone"></i> +92 331-3432382
-                    </a>
-                    </p>
-            <a href="" class="text-white fs-3"><i class="fa-brands fa-facebook"></i></a>
-            <a href="" class="text-white fs-3"> <i class="fa-brands fa-instagram"></i></a>
-            <a href="">
-                <!-- <img src="images/icons/app-icon-1.png" alt="">
-            </a>
-            <a href="">
-                <img src="images/icons/app-icon-2.png" alt=""> -->
-                </a>
-        </div>
-        </div>
-</section>
-<br>
-<hr>
-<section class="row m-0">
-    <div class="col-md-4">
-    <div class="d-flex justify-content-around">
-            
-        </div>
-    </div>
-    <div class="col-md-4">
-    <div class="mt-2 m-0">
-    <p><a href="" class="text-white text-decoration-none">Design by: Muhammad Hamza Siddiqui</a></p>
-    </div>
-    </div>
+                  <p>
+                  <a href="mailto:someone@gmail.com" class="text-white text-decoration-none">
+
+                          <i class="fa-solid fa-envelope"></i> sales@yourcompany.com
+                      </a>
+                      </p>
+              </div>
+          </div>
+          <div class="col-md-6">
+          <div class="">
+                  <h2>
+                      School Address <br>
+                      Branch Office:
+                  </h2>
+                  <p><i class="fa-solid fa-location-dot"></i>Branch: A-61, Yousuf Plaza, Block 16, F.B Area, Karachi.</p>
+                  <p>
+                  <a href="tel:000000000" class="text-white text-decoration-none">
+                  
+                  
+                          <i class="fa-solid fa-phone"></i> +92 331-3432382
+                          </a>
+                          </p>
+                  <a href="" class="text-white fs-3"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="" class="text-white fs-3"> <i class="fa-brands fa-instagram"></i></a>
+                  <a href="">
+                      <!-- <img src="images/icons/app-icon-1.png" alt="">
+                  </a>
+                  <a href="">
+                      <img src="images/icons/app-icon-2.png" alt=""> -->
+                      </a>
+              </div>
+              </div>
+      </section>
+      <!--  <section class="row m-0">
+          <div class="col-md-4">
+          <div class="d-flex justify-content-around">
+                  
+              </div>
+          </div>
+          <div class="col-md-4">
+          <div class="mt-2 m-0">
+          <p><a href="" class="text-white text-decoration-none">Design by: Muhammad Hamza Siddiqui</a></p>
+          </div>
+          </div>  
+      </section> -->
+          </main>`
     
-    </section>
-    </main>`
-    
-    
-    
-    // footer End
+  // footer End
