@@ -1,7 +1,7 @@
 var cardObj = [
     {
       id: 0,
-      image: "images/reviewImages/WhatsApp\ Image\ 2023-12-07\ at\ 4.19.10\ PM.jpeg",
+      image: "images/reviewImages/1.jpeg",
       title: "Card title",
       des: "Some quick example text to build on the card title and make up the bulk of the card's content.",
     },
@@ -54,10 +54,11 @@ var cardObj = [
             alt="..."
             height="160px"
           />
-          <div class="card-body">
+          <!-- Section School small Cards end -->
+          <!-- <div class="card-body">
             <h5 class="card-title">${title}</h5>
             <p class="card-text">${description}</p>
-          </div>
+          </div> -->
     </div>
     `;
   }
