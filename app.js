@@ -248,8 +248,8 @@ var navBar = document.getElementById("navBar")
                           <i class="fa-solid fa-phone"></i> +92 331-3432382
                           </a>
                           </p>
-                  <a href="" class="text-white fs-3"><i class="fa-brands fa-facebook"></i></a>
-                  <a href="" class="text-white fs-3"> <i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=61550848445336&mibextid=vk8aRt" class="text-white fs-3"><i class="fa-brands fa-facebook"></i></a>
+                  <!-- <a href="" class="text-white fs-3"> <i class="fa-brands fa-instagram"></i></a> -->
                   <a href="">
                       <!-- <img src="images/icons/app-icon-1.png" alt="">
                   </a>
