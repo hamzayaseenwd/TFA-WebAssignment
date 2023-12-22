@@ -7,34 +7,94 @@ var cardObj = [
     },
     {
       id: 1,
-      image: "images/reviewImages/WhatsApp\ Image\ 2023-12-07\ at\ 4.19.10\ PM.jpeg",
+      image: "images/reviewImages/2.jpeg",
       title: "Our card",
       des: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, enim.",
     },
     {
       id: 2,
-      image: "https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg",
+      image: "images/reviewImages/3.jpeg",
       title: "Our card",
       des: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, enim.",
     },
     {
       id: 3,
-      image: "https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg",
+      image: "images/reviewImages/4.jpeg",
       title: "Our card",
       des: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, enim.",
     },
     {
       id: 4,
-      image: "https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg",
+      image: "images/reviewImages/5.jpeg",
       title: "Our card",
       des: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, enim.",
     },
     {
       id: 5,
-      image: "https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg",
+      image: "images/reviewImages/6.jpeg",
       title: "Our card",
       des: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, enim.",
-    }
+    },
+    {
+      id: 6,
+      image: "images/reviewImages/7.jpeg",
+      title: "Our card",
+      des: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, enim.",
+    },
+    {
+      id: 7,
+      image: "images/reviewImages/8.jpeg",
+      title: "Our card",
+      des: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, enim.",
+    },
+    {
+      id: 8,
+      image: "images/reviewImages/9.jpeg",
+      title: "Our card",
+      des: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, enim.",
+    },
+    {
+      id: 9,
+      image: "images/reviewImages/10.jpeg",
+      title: "Our card",
+      des: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, enim.",
+    },
+    {
+      id: 10,
+      image: "images/reviewImages/11.jpeg",
+      title: "Our card",
+      des: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, enim.",
+    },
+    {
+      id: 11,
+      image: "images/reviewImages/12.jpeg",
+      title: "Our card",
+      des: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, enim.",
+    },
+    {
+      id: 12,
+      image: "images/reviewImages/13.jpeg",
+      title: "Our card",
+      des: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, enim.",
+    },
+    {
+      id: 13,
+      image: "images/reviewImages/14.jpeg",
+      title: "Our card",
+      des: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, enim.",
+    },
+    {
+      id: 14,
+      image: "images/reviewImages/15.jpeg",
+      title: "Our card",
+      des: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, enim.",
+    },
+    // {
+    //   id: 15,
+    //   image: "images/reviewImages/16.jpeg",
+    //   title: "Our card",
+    //   des: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, enim.",
+    // },
   ];
   
   // console.log(cardObj);
@@ -76,67 +136,67 @@ var cardObj = [
 
 
 
-  var cardObj = [
-    {
-      id: 0,
-      image: "images/reviewImages/WhatsApp\ Image\ 2023-12-07\ at\ 4.19.10\ PM.jpeg",
-      },
-    {
-      id: 1,
-      image: "images/reviewImages/WhatsApp\ Image\ 2023-12-07\ at\ 4.19.10\ PM.jpeg",
-      },
-    {
-      id: 2,
-      image: "https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg",
-      },
-    {
-      id: 3,
-      image: "https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg",
-      },
-    {
-      id: 4,
-      image: "https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg",
-      },
-    {
-      id: 5,
-      image: "https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg",
-      }
-  ];
+  // var cardObj = [
+  //   {
+  //     id: 0,
+  //     image: "images/reviewImages/WhatsApp\ Image\ 2023-12-07\ at\ 4.19.10\ PM.jpeg",
+  //     },
+  //   {
+  //     id: 1,
+  //     image: "images/reviewImages/WhatsApp\ Image\ 2023-12-07\ at\ 4.19.10\ PM.jpeg",
+  //     },
+  //   {
+  //     id: 2,
+  //     image: "https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg",
+  //     },
+  //   {
+  //     id: 3,
+  //     image: "https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg",
+  //     },
+  //   {
+  //     id: 4,
+  //     image: "https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg",
+  //     },
+  //   {
+  //     id: 5,
+  //     image: "https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg",
+  //     }
+  // ];
   
-  // console.log(cardObj);
+  // // console.log(cardObj);
   
-  var cardCon = document.getElementById("cardContent");
+  // var cardCon = document.getElementById("cardContent");
   
-  for (var i = 0; i < cardObj.length; i++) {
-    var image = cardObj[i].image;
-    var title = cardObj[i].title;
-    var description = cardObj[i].des;
-    var id = cardObj[i].id;
-    //   console.log(image);
-    cardCon.innerHTML += `
-    <div class="card m-2" style="width: 18rem">
-          <img
-            src=${image}
-            class="card-img-top"
-            alt="..."
-            height="160px"
-          />
-          <div class="card-body">
-            <h5 class="card-title">${title}</h5>
-            <p class="card-text">${description}</p>
-          </div>
-    </div>
-    `;
-  }
-  var arr = [];
-  function cart(index) {
-    //   console.log(index);
-    console.log(cardObj[index]);
-    var sendingObj = cardObj[index];
-    arr.push(sendingObj);
-    //   console.log(arr);
-    localStorage.setItem("cartData", JSON.stringify(arr));
-  }
+  // for (var i = 0; i < cardObj.length; i++) {
+  //   var image = cardObj[i].image;
+  //   var title = cardObj[i].title;
+  //   var description = cardObj[i].des;
+  //   var id = cardObj[i].id;
+  //   //   console.log(image);
+  //   cardCon.innerHTML += `
+  //   <div class="card m-2" style="width: 18rem">
+  //         <img
+  //           src=${image}
+  //           class="card-img-top"
+  //           alt="..."
+  //           height="160px"
+  //         />
+  //         <div class="card-body">
+  //           <h5 class="card-title">${title}</h5>
+  //           <p class="card-text">${description}</p>
+  //         </div>
+  //   </div>
+  //   `;
+  // }
+  // var arr = [];
+  // function cart(index) {
+  //   //   console.log(index);
+  //   console.log(cardObj[index]);
+  //   var sendingObj = cardObj[index];
+  //   arr.push(sendingObj);
+  //   //   console.log(arr);
+  //   localStorage.setItem("cartData", JSON.stringify(arr));
+  // }
   
 // nav start
 
