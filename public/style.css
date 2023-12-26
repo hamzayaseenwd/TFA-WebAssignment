@@ -1,0 +1,36 @@
+.header {
+    background-color:#505052 ;
+}
+.card-1 {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.card-2 {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.card-3 {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.card-img-1 {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.card-img-2 {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.wd-100{
+    height: 30px;
+}
